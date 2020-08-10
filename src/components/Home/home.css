@@ -1,0 +1,57 @@
+.container{
+   width: 50%;
+   background: #666;
+   margin-left: 25%;
+}
+
+.form{
+    background: #fff;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    margin-top: 200px;
+}
+
+button{
+    width: 200px;
+    padding: 50px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.insert button{
+    float: left;
+    background: #66CDAA;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.insert button:hover{
+    background: #5F9EA0;
+    color: aliceblue;
+}
+
+.search button{
+    float: right;
+    background: #87CEFA;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.search button:hover{
+    background: #4682B4;
+    color: aliceblue;
+}
+
+@media only screen and(max-device-width: 900px){
+    .button{display: none;}
+}
